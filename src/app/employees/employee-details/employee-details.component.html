@@ -1,0 +1,17 @@
+<div class="alert alert-success col-sm-4" *ngIf="employee">
+  <h3>
+  Employee Details
+  </h3>
+
+  First Name: {{ employee.first_name | uppercase }}
+  <br>
+  Last Name: {{ employee.last_name | uppercase }}
+  <br>
+  City: {{ employee.city | uppercase }}
+  <br>
+</div>
+
+
+<!--{{ employee | json }}
+
+{{ project | json }}-->
